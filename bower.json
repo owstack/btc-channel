@@ -1,0 +1,30 @@
+{
+  "name": "btccore-channel",
+  "main": "./btccore-channel.min.js",
+  "version": "1.0.1",
+  "homepage": "https://github.com/owstack/btccore-channel",
+  "authors": [
+    "Open Wallet Stack"
+  ],
+  "description": "Payment Channels implemented for Btccore.",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "bitcoin",
+    "btccore",
+    "btc",
+    "satoshi",
+    "payment channels",
+    "channel",
+    "smart contract"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
