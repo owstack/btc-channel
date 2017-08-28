@@ -30,7 +30,7 @@ var refundAddress = 'mzCXqcsLBerwyoRZzBFQELHaJ1ZtBSxxe6';
 var providerAddress = 'mrCHmWgn54hJNty2srFF4XLmkey5GnCv5m';
 
 var consumer = new Consumer({
-  network: 'testnet/btc',
+  network: 'testnet',
   providerPublicKey: providerPublicKey,
   providerAddress: providerAddress,
   refundAddress: refundAddress
@@ -60,7 +60,7 @@ var Provider = require('btccore-channel').Provider;
 var paymentAddress = 'mig4mc6q7PTQ2YZ9ax5YtR4gjARfoqJSZd';
 
 var provider = new Provider({
-  network: 'testnet/btc',
+  network: 'testnet',
   paymentAddress: paymentAddress
 });
 console.info('Share this public key with potential consumers: ' + provider.getPublicKey());

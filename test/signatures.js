@@ -44,7 +44,7 @@ var getConsumer = function() {
   var refundAddress = 'mzCXqcsLBerwyoRZzBFQELHaJ1ZtBSxxe6';
 
   var consumer = new Consumer({
-    network: 'testnet/btc',
+    network: 'testnet',
     fundingKey: fundingKey,
     commitmentKey: commitmentKey,
     providerPublicKey: providerKey.publicKey,
@@ -99,6 +99,6 @@ var getProvider = function() {
   return new Provider({
     key: providerKey,
     paymentAddress: providerAddress,
-    network: 'testnet/btc'
+    network: 'testnet'
   });
 };

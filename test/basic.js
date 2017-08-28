@@ -51,7 +51,7 @@ describe('Simple Payment Channel usage', function() {
           'changeIndex': 0
         },
         'publicKeys': ['027f10e67bea70f847b3ab92c18776c6a97a78f84def158afc31fd98513d42912e', '023bc028f67697712efeb0216ef1bc7208e2c9156bf0731204d79328f4c8ef643a'],
-        'network': 'testnet/btc'
+        'network': 'testnet'
       };
       obj.should.deep.equal(expected);
     });
@@ -141,7 +141,7 @@ var getConsumer = function() {
   var refundAddress = 'mzCXqcsLBerwyoRZzBFQELHaJ1ZtBSxxe6';
 
   var consumer = new Consumer({
-    network: 'testnet/btc',
+    network: 'testnet',
     fundingKey: fundingKey,
     commitmentKey: commitmentKey,
     providerPublicKey: providerKey.publicKey,
@@ -196,6 +196,6 @@ var getProvider = function() {
   return new Provider({
     key: providerKey,
     paymentAddress: providerAddress,
-    network: 'testnet/btc'
+    network: 'testnet'
   });
 };
