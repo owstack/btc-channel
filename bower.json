@@ -1,7 +1,7 @@
 {
   "name": "btccore-channel",
   "main": "./btccore-channel.min.js",
-  "version": "1.0.1",
+  "version": "0.0.1",
   "homepage": "https://github.com/owstack/btccore-channel",
   "authors": [
     "Open Wallet Stack"
