@@ -1,5 +1,5 @@
-<img src="http://btccore.io/css/images/module-channel.png" alt="btccore payment channels" height="35">
-# Payment Channels for Btccore
+Btccore Payment Channels
+======
 
 [![NPM Package](https://img.shields.io/npm/v/btccore-channel.svg?style=flat-square)](https://www.npmjs.org/package/btccore-channel)
 [![Build Status](https://img.shields.io/travis/owstack/btccore-channel.svg?branch=master&style=flat-square)](https://travis-ci.org/owstack/btccore-channel)
@@ -11,7 +11,7 @@ See [the main btccore repo][btccore] or the [btccore guide on Payment Channels](
 
 ## Attribution
 
-This repository was created by copy forking [bitcore-channels commit eef80d0] (https://github.com/bitpay/bitcore-channel/commit/eef80d08bebce1daa7e3bc40cc4c625db6db0ec8).
+This repository was created by copy forking [bitcore-channels commit eef80d0](https://github.com/bitpay/bitcore-channel/commit/eef80d08bebce1daa7e3bc40cc4c625db6db0ec8).
 
 ## Contributing
 
