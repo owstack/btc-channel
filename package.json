@@ -19,7 +19,7 @@
   "license": "MIT",
   "repository": "https://github.com/owstack/btccore-channel",
   "dependencies": {
-    "btccore-lib": "git://github.com/owstack/btccore-lib.git",
+    "btccore-lib": "https://github.com/owstack/btccore-lib",
     "inherits": "=2.0.1"
   },
   "devDependencies": {
@@ -27,7 +27,7 @@
     "chai": "^2.3.0",
     "gulp": "^3.8.10",
     "nodejs-externs": "^0.10.0",
-    "ows-build": "git://github.com/owstack/ows-build.git",
+    "ows-build": "https://github.com/owstack/ows-build",
     "request": "^2.48.0",
     "vinyl-transform": "^1.0.0"
   }
