@@ -3,7 +3,7 @@
   "main": "./btc-channel.min.js",
   "version": "0.0.1",
   "homepage": "https://github.com/owstack/btc-channel",
-  "description": "Payment Channel support for Btccore.",
+  "description": "Payment Channel support for btc-lib.",
   "moduleType": [
     "globals"
   ],

@@ -1,5 +1,5 @@
 # Payment Channels
-Btccore includes classes necessary to handle payment channel smart contracts. The approach taken is networking-agnostic, so this library can be used at any layer.
+Includes classes necessary to handle payment channel smart contracts. The approach taken is networking-agnostic, so this library can be used at any layer.
 
 ## Installation
 Payment channels are implemented as a separate module and you must add it to your dependencies:
