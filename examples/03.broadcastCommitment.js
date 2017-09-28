@@ -2,8 +2,8 @@
 
 var assert = require('assert');
 var fs = require('fs');
-var btccore = require('btccore-lib');
-var PrivateKey = btccore.PrivateKey;
+var btcLib = require('btc-lib');
+var PrivateKey = btcLib.PrivateKey;
 var Consumer = require('../lib/Consumer');
 var Commitment = require('../lib/transactions/Commitment');
 
@@ -30,7 +30,7 @@ var refund = JSON.parse(fs.readFileSync('signed.refund.log'));
 
 if (consumer.validateRefund(refund)) {
   console.log('validated');
-  var explorer = new btccore.transport.explorers.Explorer();
+  var explorer = new btcLib.transport.explorers.Explorer();
 
   explorer.broadcast(consumer.commitmentTx, function(err, txid) {
     if (err) {

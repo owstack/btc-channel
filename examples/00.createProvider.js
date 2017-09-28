@@ -1,7 +1,7 @@
 var channel = require('../');
-var btccore = require('btccore-lib');
+var btcLib = require('btc-lib');
 
 
-var providerKey = new btccore.PrivateKey(btccore.Networks.testnet);
+var providerKey = new btcLib.PrivateKey(btcLib.Networks.testnet);
 
 console.log('provider key: ' + providerKey.toString());

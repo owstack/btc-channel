@@ -2,8 +2,8 @@
 
 var assert = require('assert');
 var fs = require('fs');
-var btccore = require('btccore-lib');
-var PrivateKey = btccore.PrivateKey;
+var btcLib = require('btc-lib');
+var PrivateKey = btcLib.PrivateKey;
 var Consumer = require('../lib/Consumer');
 var Commitment = require('../lib/transactions/Commitment');
 

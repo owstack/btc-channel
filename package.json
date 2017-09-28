@@ -1,7 +1,7 @@
 {
-  "name": "btccore-channel",
+  "name": "btc-channel",
   "version": "0.0.1",
-  "description": "Payment Channel support to btccore.",
+  "description": "Payment Channel support to btc.",
   "scripts": {
     "lint": "gulp lint",
     "test": "gulp test",
@@ -9,7 +9,7 @@
   },
   "keywords": [
     "bitcoin",
-    "btccore",
+    "btc",
     "btc",
     "satoshi",
     "payment channels",
@@ -17,9 +17,9 @@
     "smart contract"
   ],
   "license": "MIT",
-  "repository": "https://github.com/owstack/btccore-channel",
+  "repository": "https://github.com/owstack/btc-channel",
   "dependencies": {
-    "btccore-lib": "https://github.com/owstack/btccore-lib",
+    "btc-lib": "https://github.com/owstack/btc-lib",
     "inherits": "=2.0.1"
   },
   "devDependencies": {

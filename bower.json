@@ -1,15 +1,15 @@
 {
-  "name": "btccore-channel",
-  "main": "./btccore-channel.min.js",
+  "name": "btc-channel",
+  "main": "./btc-channel.min.js",
   "version": "0.0.1",
-  "homepage": "https://github.com/owstack/btccore-channel",
+  "homepage": "https://github.com/owstack/btc-channel",
   "description": "Payment Channel support for Btccore.",
   "moduleType": [
     "globals"
   ],
   "keywords": [
     "bitcoin",
-    "btccore",
+    "btc",
     "btc",
     "satoshi",
     "payment channels",
