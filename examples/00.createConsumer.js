@@ -1,10 +1,10 @@
 var channel = require('../');
-var btccore = require('btccore-lib');
+var btcLib = require('btc-lib');
 
 
-var refundKey = new btccore.PrivateKey(btccore.Networks.testnet);
-var fundingKey = new btccore.PrivateKey(btccore.Networks.testnet);
-var commitmentKey = new btccore.PrivateKey(btccore.Networks.testnet);
+var refundKey = new btcLib.PrivateKey(btcLib.Networks.testnet);
+var fundingKey = new btcLib.PrivateKey(btcLib.Networks.testnet);
+var commitmentKey = new btcLib.PrivateKey(btcLib.Networks.testnet);
 
 console.log('funding key: ' + refundKey.toString());
 console.log('refund key: ' + fundingKey.toString());

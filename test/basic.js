@@ -1,8 +1,8 @@
 'use strict';
 
 var should = require('chai').should();
-var btccore = require('btccore-lib');
-var Networks = btccore.Networks;
+var btcLib = require('btc-lib');
+var Networks = btcLib.Networks;
 
 describe('Simple Payment Channel usage', function() {
 
@@ -130,9 +130,9 @@ describe('Simple Payment Channel usage', function() {
   });
 });
 
-var providerKey = new btccore.PrivateKey('58e78db594be551a8f4c7070fd8695363992bd1eb37d01cd4a4da608f3dc5c2d', btccore.Networks.testnet);
-var fundingKey = new btccore.PrivateKey('79b0630419ad72397d211db4988c98ffcb5955b14f6ec5c5651eec5c98d7e557', btccore.Networks.testnet);
-var commitmentKey = new btccore.PrivateKey('17bc93ac93f4a26599d3af49e59206e8276259febba503434eacb871f9bbad75', btccore.Networks.testnet);
+var providerKey = new btcLib.PrivateKey('58e78db594be551a8f4c7070fd8695363992bd1eb37d01cd4a4da608f3dc5c2d', btcLib.Networks.testnet);
+var fundingKey = new btcLib.PrivateKey('79b0630419ad72397d211db4988c98ffcb5955b14f6ec5c5651eec5c98d7e557', btcLib.Networks.testnet);
+var commitmentKey = new btcLib.PrivateKey('17bc93ac93f4a26599d3af49e59206e8276259febba503434eacb871f9bbad75', btcLib.Networks.testnet);
 var providerAddress = providerKey.toAddress(Networks.testnet);
 
 var getConsumer = function() {

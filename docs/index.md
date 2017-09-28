@@ -7,13 +7,13 @@ Payment channels are implemented as a separate module and you must add it to you
 For node projects:
 
 ```
-npm install btccore-channel --save
+npm install btc-channel --save
 ```
 
 For client-side projects:
 
 ```
-bower install btccore-channel --save
+bower install btc-channel --save
 ```
 
 ## Getting Started
@@ -24,7 +24,7 @@ Let's start with an overview of how to use the Consumer side. Let's assume that 
 We also have a final address that we'll use as a "change" address (sending here any funds that we didn't transact with the Provider). We'll call this the "refund" address, as it will also be the address where the refund will get to in case the contract is cancelled.
 
 ```javascript
-var Consumer = require('btccore-channel').Consumer;
+var Consumer = require('btc-channel').Consumer;
 var providerPublicKey = '027f10e67bea70f847b3ab92c18776c6a97a78f84def158afc31fd98513d42912e';
 var refundAddress = 'mzCXqcsLBerwyoRZzBFQELHaJ1ZtBSxxe6';
 var providerAddress = 'mrCHmWgn54hJNty2srFF4XLmkey5GnCv5m';
@@ -56,7 +56,7 @@ var messageToProvider = consumer.setupRefund();
 Now let's take a look at the Provider side. We'll need to specify a final address where to send our funds.
 
 ```javascript
-var Provider = require('btccore-channel').Provider;
+var Provider = require('btc-channel').Provider;
 var paymentAddress = 'mig4mc6q7PTQ2YZ9ax5YtR4gjARfoqJSZd';
 
 var provider = new Provider({

@@ -1,7 +1,7 @@
 'use strict';
-var btccore = require('btccore-lib');
+var btcLib = require('btc-lib');
 var fs = require('fs');
-var PrivateKey = btccore.PrivateKey;
+var PrivateKey = btcLib.PrivateKey;
 var Consumer = require('../lib/Consumer');
 
 var fundingKey = new PrivateKey('cb5dc68fbcaf37f29139b50fa4664b395c03e49deb966e5d49a629af005d0654');
@@ -19,7 +19,7 @@ var consumer = new Consumer({
   providerAddress: providerKey.toAddress()
 });
 
-var explorer = new btccore.transport.explorers.Explorer();
+var explorer = new btcLib.transport.explorers.Explorer();
 
 explorer.getUnspentUtxos(consumer.fundingAddress, function(err, utxos) {
   consumer.processFunding(utxos);
