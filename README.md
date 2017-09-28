@@ -1,4 +1,4 @@
-Btccore Payment Channels
+Btc Payment Channels
 ======
 
 [![NPM Package](https://img.shields.io/npm/v/btc-channel.svg?style=flat-square)](https://www.npmjs.org/package/btc-channel)
@@ -21,7 +21,7 @@ See [CONTRIBUTING.md](https://github.com/owstack/btc/blob/master/CONTRIBUTING.md
 
 Code released under [the MIT license](https://github.com/owstack/btc/blob/master/LICENSE).
 
-Copyright 20137 Open Wallet Stack. Btccore is a trademark maintained by Open Wallet Stack.
+Copyright 20137 Open Wallet Stack.
 
 [btc]: https://github.com/owstack/btc
 [channel]: https://bitcoin.org/en/developer-guide#micropayment-channel
