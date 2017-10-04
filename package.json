@@ -19,11 +19,11 @@
   "repository": "https://github.com/owstack/btc-channel",
   "dependencies": {
     "btc-lib": "https://github.com/owstack/btc-lib",
-    "inherits": "=2.0.1"
+    "inherits": "2.0.3"
   },
   "devDependencies": {
     "brfs": "^1.2.0",
-    "chai": "^2.3.0",
+    "chai": "^4.1.2",
     "gulp": "^3.8.10",
     "nodejs-externs": "^0.10.0",
     "ows-build": "https://github.com/owstack/ows-build",
