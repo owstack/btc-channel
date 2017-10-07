@@ -21,7 +21,7 @@ See [CONTRIBUTING.md](https://github.com/owstack/btc/blob/master/CONTRIBUTING.md
 
 Code released under [the MIT license](https://github.com/owstack/btc/blob/master/LICENSE).
 
-Copyright 20137 Open Wallet Stack.
+Copyright 2017 Open Wallet Stack.
 
 [btc]: https://github.com/owstack/btc
 [channel]: https://bitcoin.org/en/developer-guide#micropayment-channel
