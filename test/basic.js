@@ -1,7 +1,7 @@
 'use strict';
 
 var should = require('chai').should();
-var btcLib = require('btc-lib');
+var btcLib = require('@owstack/btc-lib');
 var Networks = btcLib.Networks;
 var PrivateKey = btcLib.PrivateKey;
 

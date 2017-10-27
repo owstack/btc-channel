@@ -2,7 +2,7 @@
 
 var assert = require('assert');
 var fs = require('fs');
-var btcLib = require('btc-lib');
+var btcLib = require('@owstack/btc-lib');
 var PrivateKey = btcLib.PrivateKey;
 var Consumer = require('../lib/Consumer');
 var Commitment = require('../lib/transactions/Commitment');

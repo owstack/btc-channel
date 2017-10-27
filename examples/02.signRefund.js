@@ -1,4 +1,4 @@
-var btcLib = require('btc-lib');
+var btcLib = require('@owstack/btc-lib');
 var fs = require('fs');
 var PrivateKey = btcLib.PrivateKey;
 var Provider = require('../lib/Provider');

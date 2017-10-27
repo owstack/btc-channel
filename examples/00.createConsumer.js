@@ -1,5 +1,5 @@
 var channel = require('../');
-var btcLib = require('btc-lib');
+var btcLib = require('@owstack/btc-lib');
 
 
 var refundKey = new btcLib.PrivateKey(btcLib.Networks.testnet);
