@@ -9,10 +9,6 @@ A module for [btc][btc] that implements [Payment Channels][channel]. Payment cha
 
 See [the main btc repo][btc] or the [btc guide on Payment Channels](http://btc.io/guide/module/channel/index.html) for more information.
 
-## Attribution
-
-This repository was created by copy forking [bitcore-channels commit eef80d0](https://github.com/bitpay/bitcore-channel/commit/eef80d08bebce1daa7e3bc40cc4c625db6db0ec8).
-
 ## Contributing
 
 See [CONTRIBUTING.md](https://github.com/owstack/btc/blob/master/CONTRIBUTING.md) on the main btc repo for information about how to contribute.
