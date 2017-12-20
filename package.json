@@ -1,6 +1,6 @@
 {
   "name": "@owstack/btc-channel",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Payment Channel support to btc.",
   "scripts": {
     "lint": "gulp lint",
@@ -18,7 +18,7 @@
   "license": "MIT",
   "repository": "https://github.com/owstack/btc-channel",
   "dependencies": {
-    "@owstack/btc-lib": "^0.0.3",
+    "@owstack/btc-lib": "^0.0.4",
     "inherits": "=2.0.1"
   },
   "devDependencies": {
